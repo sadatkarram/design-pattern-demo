@@ -1,8 +1,13 @@
 package com.example.design_pattern_demo.creational.factory;
 
+import com.example.design_pattern_demo.creational.factory.service.NotificationService;
+
 import java.util.Scanner;
 
-// Acting as Client
+/*
+Creator = It will create Factory class instance which will then
+use factory-method <createNotification()> to create actual Product object<Concrete-Product>
+*/
 public class FactoryDemo {
     public static void main(String[] args) {
 

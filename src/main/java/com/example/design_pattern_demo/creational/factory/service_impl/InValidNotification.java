@@ -1,5 +1,8 @@
-package com.example.design_pattern_demo.creational.factory;
+package com.example.design_pattern_demo.creational.factory.service_impl;
 
+import com.example.design_pattern_demo.creational.factory.service.NotificationService;
+
+// Concrete-Product
 public class InValidNotification implements NotificationService {
     @Override
     public void notifyUser() {

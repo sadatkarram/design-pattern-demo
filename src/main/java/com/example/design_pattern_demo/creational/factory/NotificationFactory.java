@@ -1,5 +1,11 @@
 package com.example.design_pattern_demo.creational.factory;
 
+import com.example.design_pattern_demo.creational.factory.service.NotificationService;
+import com.example.design_pattern_demo.creational.factory.service_impl.EmailNotification;
+import com.example.design_pattern_demo.creational.factory.service_impl.InValidNotification;
+import com.example.design_pattern_demo.creational.factory.service_impl.SMSNotification;
+
+//Concrete-Creator = here we have factory-method [createNotification()]
 public class NotificationFactory {
 
     public NotificationService createNotification(String type) {
