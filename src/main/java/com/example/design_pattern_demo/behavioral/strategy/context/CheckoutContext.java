@@ -1,4 +1,6 @@
-package com.example.design_pattern_demo.behavioral.strategy;
+package com.example.design_pattern_demo.behavioral.strategy.context;
+
+import com.example.design_pattern_demo.behavioral.strategy.stratege.PaymentStrategy;
 
 // Context (Client):
 public class CheckoutContext {

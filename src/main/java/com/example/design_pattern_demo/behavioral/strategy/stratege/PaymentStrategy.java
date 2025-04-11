@@ -1,4 +1,4 @@
-package com.example.design_pattern_demo.behavioral.strategy;
+package com.example.design_pattern_demo.behavioral.strategy.stratege;
 
 // Strategy Interface:
 public interface PaymentStrategy {
